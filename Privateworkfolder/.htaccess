@@ -1,5 +1,0 @@
-Options -Indexes
-AuthName "PrivateWorkFolder"
-AuthType Basic
-AuthUserFile /home/mifs/fg257/.htpasswd
-Require valid-user
