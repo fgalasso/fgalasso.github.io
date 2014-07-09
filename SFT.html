@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-GB" lang="en-GB" dir="ltr">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Fabio Galasso - Personal Web Page</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<div id="wrap">
+	<!--Header -->
+  	<div id="header">
+		<div id="headerimg">
+			<h1><span class="hideElement">Dr Fabio Galasso - Personal Web Page</span></h1>
+			<div id="logo">
+				<h2><a href="index.html" title="this_web_page"><span>Dr Fabio Galasso</span></a></h2>
+			</div>
+		</div>
+	</div><!--/Header -->
+	<!--Corpo-->
+	<div id="corpo">
+		<div id="clsx">
+			<div id="mprincipale">
+				<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="cdd.html">Code, Data, Videos</a></li>
+				<li><a href="publications.html">Publications</a></li>
+				<li><a href="links.html">Links</a></li>
+				<li class="last"><a href="contact.html">Contact <img src="Files/ico_posta.gif" alt="" width="20" height="15" /></a></li>
+				</ul>
+		  </div>
+		</div>
+		<!--Content -->
+		<div id="content">
+			<div class="briciole"><a href="index.html">HOME</a> > <a href="cdd.html">Code_data_videos</a> > Shape-from-texture</div>
+			<div class="clsx">
+
+
+
+				<div class="aresearchbox">
+					<h3>3D shape reconstruction from homogeneous textures</h3>
+
+					<div class="someresearchdescription">
+<p>Shape-From-Texture is the area of Computer Vision which studies the recovery
+of the shape of a textured object or scene.</p>
+						<div class="someresearchimages" style="max-width:253px">
+							<img src='Files/SFT/Dam.gif' alt="" width="253" height="93" >
+<p>New unpublished result. A dry dam and the side view of the reconstructed surface.
+Normals are recovered locally at each pixel location</p>
+						</div>
+<p>Psychological studies show that texture is important in the perception of
+shape. Moreover it is ubiquitous.</p>
+<p>However, the task is ill-posed for a machine and some initial assumption
+is always necessary to identify the characteristic of the texture
+conveying the shape information.</p>
+						<div class="someresearchimages" style="max-width:253px; clear: left">
+							<img src='Files/SFT/Sunflowers.gif' alt="" width="253" height="93" >
+<p>New unpublished result. A sunflower field and the side view of the reconstructed surface.
+Normals are recovered locally at each pixel location</p>
+						</div>
+<p>We assume the most general <em>stochastic homogeneity</em> -
+the generating process is stationary under translation -
+which allows to consider many natural textures.</p>
+<p>Given the initial assumptions, Shape-From-Texture is generally seen as
+two distinct problems: the estimation of the texture distortion, due
+to the geometry of the scene and the projection from the 3D world to
+the 2D image; and the 3D shape reconstruction, given by interpreting
+the measured distortion. We have contributed
+to both these aspects.</p>
+						<div class="someresearchimages" style="max-width:510px; clear: left">
+							<img src='Files/SFT/Video.gif' alt="" width="510" height="189" >
+<p>Video sequence showing a deflating balloon, covered with a homogeneously-textured cloth.
+The reconstructed sequence is fluid and captures the small variations over time,
+although the normals are estimated locally and each frame is processed independently.
+Download: <a href='Files/SFT/Video_and_reconstruction.zip'>[Video_and_reconstruction]</a></p>
+						</div>
+<p>In<span class="white">_</span>particular, the distortion information is characterized by the use of
+<em>local spatial frequencies</em>. A novel method is introduced which combines
+Fourier analysis and the use of Gabor functions to recover all the main
+instantaneous frequencies of the texture at each pixel.</p>
+<p>The 3D reconstruction
+from the multi-scale distortion is then solved at different levels
+of complexity: simple planar surfaces, general surfaces with
+the frontal appearance of the texture available, general surfaces
+where no further assumption is needed, both in orthographic and perspective views.</p>
+<p>Accuracy and robustness are demostrated in all cases. Most importantly
+the model applies to complex natural textures.</p>
+<br>
+
+<p><a href='Files/SFT/GalassoLasenbyCVPR09.pdf'>Paper (CVPR'09)</a></p>
+<br>
+
+<h3>Other related publications</h3>
+<p><a href='Files/SFT/GalassoLasenbyISVC08.pdf'>Paper (ISVC'08)</a></p>
+<p><a href='Files/SFT/GalassoLasenbyISVC07.pdf'>Paper (ISVC'07)</a></p>
+<p><a href='Files/SFT/GalassoLasenbyBMVC07.pdf'>Paper (BMVC'07)</a></p>
+<p span class="finalline"></span></p>
+					</div> <!--someresearchdescription-->
+				</div> <!--aresearchbox-->
+
+
+
+			</div><!--/Clsx -->
+		</div><!--/Content -->
+	</div><!--/Corpo -->
+	<div id="footer">
+		<div class="footercentered">
+			<a href="http://scholar.google.de/citations?user=2gSuGBEAAAAJ">Google scholar</a> |
+			<a href="http://de.linkedin.com/pub/fabio-galasso/32/41b/611/">Linked In profile</a>
+			<div class="footertoleft">
+			<p>Copyright &copy; 2014 Fabio Galasso, All Rights Reserved<p>
+			</div>
+		</div>
+  	</div>
+	<div id="clear"></div>
+</div><!--/Wrap -->
+</body>
+</html>
