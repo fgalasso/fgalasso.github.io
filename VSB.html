@@ -66,6 +66,9 @@ and that reflects the tradeoff between over-segmentation and segmentation accura
 
 
 <h3>Train annotations</h3>
+<p><a href='Files/VSB/General_traindense_fullres.zip'>*General benchmark, dense annotations, full resolution</a></p>
+<p><a href='Files/VSB/General_traindense_halfres.zip'>*General benchmark, dense annotations, half resolution</a></p>
+
 <p><a href='Files/VSB/General_train_fullres.zip'>General benchmark, full resolution</a></p>
 <p><a href='Files/VSB/General_train_halfres.zip'>General benchmark, half resolution</a></p>
 
@@ -77,6 +80,8 @@ and that reflects the tradeoff between over-segmentation and segmentation accura
 
 <p><a href='Files/VSB/Cameramotion_train_fullres.zip'>Camera motion segmentation benchmark, full resolution</a></p>
 <p><a href='Files/VSB/Cameramotion_train_halfres.zip'>Camera motion segmentation benchmark, half resolution</a></p>
+
+<p>*dense annotations regard the temporal dimension and refer to a finer sampling (up to every frame) of frames around the central one.</p>
 <br>
 
 <h3>Test annotations</h3>
@@ -110,6 +115,13 @@ and that reflects the tradeoff between over-segmentation and segmentation accura
 <p><em>We appreciate your consideration of our work. In order to keep the benchmark a lively comparison arena,
 we will maintain below a brief log of activities, bug reports and critics. Please email us for any comments.</em></p>
 
+<p><b>01.08.14</b> temporally-denser training annotations: we have collected annotations more densely
+for the frames around the central one, in relation to our GCPR 2014 work:
+"Learning Must-Link Constraints for Video Segmentation based on Spectral Clustering"
+<a href='Files/LML/Learningmustlinks_gcpr_14.pdf'>[pdf]</a>.
+(Please consider citing also this work if you are using them.)
+The new annotations regard only the general task.
+
 <p><b>28.02.14</b> video naming and subfolders: the benchmark annotations and the source code of version 1.0 used
 a simplified naming for the BVDS videos. To reduce confusion we adopted the naming of the original BVDS.
 Note: the new code is compatible with the previous name notation and video structure, so you can keep using
@@ -121,6 +133,9 @@ applied to motion and non-rigid motion labels.
 <p><b>13.02.14</b> bug report by Pablo Arbelaez: the ultrametric contour maps (UCM) which we computed from the annotations
 (just used in the BPR) were not thinned. That resulted in a slower boundary metric computation and slightly different
 BPR measures. We have now corrected the issue both in the paper and in the distributed code.</p>
+
+<br>
+<p>Project page updated on August, 1st 2014</p>
 <p span class="finalline"></span></p>
 					</div> <!--someresearchdescription-->
 				</div> <!--aresearchbox-->
