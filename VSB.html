@@ -61,7 +61,7 @@ and that reflects the tradeoff between over-segmentation and segmentation accura
 <br>
 
 <h3>Benchmark code</h3>
-<p><a href='Files/VSB/Benchmark.zip'>Matlab source code</a></p>
+<p><a href='Files/VSB/Benchmark.zip'>Matlab source code (ver. 1.3)</a></p>
 <br>
 
 
@@ -115,6 +115,11 @@ and that reflects the tradeoff between over-segmentation and segmentation accura
 <p><em>We appreciate your consideration of our work. In order to keep the benchmark a lively comparison arena,
 we will maintain below a brief log of activities, bug reports and critics. Please email us for any comments.</em></p>
 
+<p><b>06.08.14</b> parallelized benchmark code (code ver. 1.3): the estimation of the BPR and VPR benchmark
+metrics as well as the length statistics is now parallelized. The for loops in the functions
+"Benchmarksegmevalparallel" and "Benchmarkevalstatsparallel" use the parallel Matlab "parfor" command.
+Once multiple Matlab workers are initiated (cf. the Matlab instructions for parfor), every video is benchmarked in parallel.
+
 <p><b>01.08.14</b> temporally-denser training annotations: we have collected annotations more densely
 for the frames around the central one, in relation to our GCPR 2014 work:
 "Learning Must-Link Constraints for Video Segmentation based on Spectral Clustering"
@@ -122,7 +127,7 @@ for the frames around the central one, in relation to our GCPR 2014 work:
 (Please consider citing also this work if you are using them.)
 The new annotations regard only the general task.
 
-<p><b>28.02.14</b> video naming and subfolders: the benchmark annotations and the source code of version 1.0 used
+<p><b>28.02.14</b> video naming and subfolders (code ver. 1.2): the benchmark annotations and the source code of version 1.0 used
 a simplified naming for the BVDS videos. To reduce confusion we adopted the naming of the original BVDS.
 Note: the new code is compatible with the previous name notation and video structure, so you can keep using
 the (previously) downloaded labels with the new code. We are available to provide support.</p>
@@ -135,7 +140,7 @@ applied to motion and non-rigid motion labels.
 BPR measures. We have now corrected the issue both in the paper and in the distributed code.</p>
 
 <br>
-<p>Project page updated on August, 1st 2014</p>
+<p>Project page updated on August, 6th 2014</p>
 <p span class="finalline"></span></p>
 					</div> <!--someresearchdescription-->
 				</div> <!--aresearchbox-->
