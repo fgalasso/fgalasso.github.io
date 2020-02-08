@@ -109,16 +109,16 @@ color:#1378c2;
 
 /*LOGO*/
 #logo {
-	width: 311px; float: left;
+	width: 253px; float: left;
 
 }
 #logo h2 a {
    	height:100%; width:100%; display:block; text-decoration: none;
-	background: #f1ece7 url(Files/header_topleft_nameh.gif) 0 0 no-repeat;
+	background: #f1ece7 url(Files/header_topleft_namehj.gif) 0 0 no-repeat;
 	/*background: #f1ece7 url(Files/bkg_the_header.gif) 0 0 repeat;*/
 }
 #logo h2 {
-	width:311px; height:185px;
+	width:253px; height:185px;
 	font-size: 70%; z-index: 1;
 	position: relative; 
 	margin: 0; padding-top: 0px; margin-left: 0px;
