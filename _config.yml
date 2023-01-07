@@ -1,0 +1,23 @@
+# Site Settings
+baseurl:
+
+# Features Setting
+
+# Language of the website
+lang: en
+
+# Search engine optimization settings
+title: Fabio Galasso
+tagline: Fabio Galasso, Perception and Intelligence Lab (PINlab), Department of Computer Science, Sapienza University of Rome, Italy
+
+description: The PINlab focuses on fundamental research in computer vision and machine learning, with a focus on distributed and multi-agent systems, perception, and general intelligence. Our research is conducted within sustainable and interpretable frameworks.
+author: Fabio Galasso
+
+# Page Settings
+
+# Pagination
+
+# Build Settings
+
+# Bibliography settings
+
