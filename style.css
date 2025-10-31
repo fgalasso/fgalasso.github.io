@@ -196,7 +196,7 @@ margin: 0 185px 0 0;
 #content .general_description{
 /*border: 2px solid #f1ece7;*/
 background: url(Files/bkg_generaldescription.gif) 0 0 repeat-x;
-margin-top:20px;
+margin-top:2px; /*set this to 2 to align it with Home, set it to 20 to allow for some gap below briciole*/
 line-height:1.4;
 height:1%
 }
